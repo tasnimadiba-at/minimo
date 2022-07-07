@@ -1,0 +1,21 @@
+font
+connect kora jay 2 step a
+1.cdn
+2.download kore
+
+ekta website a 2-3 ta font family thk 
+
+download:
+
+ttf/otf/woff/woff2->ei filegula neoar try korbo, tahole sb browser a cholbe
+svg
+eot
+
+
+
+font-family: 'Playfair Display', serif;
+
+font-family: 'Ubuntu', sans-serif;
+
+black #000000
+ash #626262

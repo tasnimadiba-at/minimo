@@ -1,0 +1,293 @@
+/*font link*/
+/*@font-face{
+	src: url(../fonts/open_sans/opensans-bold.ttf)
+	font-family: opensans-bold;
+}
+
+@font-face{
+	src: url(../fonts/open_sans/opensans-light.ttf)
+	font-family: opensans-light;
+}*/
+
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 25px;
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	/*border: 1px solid green;*/
+	overflow: hidden;
+}
+.logo{
+	padding-top: 12px;
+	width: 12%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+	/*border: 1px solid blue;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+    float: left;
+
+}
+.menu ul li a{
+	margin: 0 50px;
+	display: inline-block;
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+
+/*header end*/
+/*banner start*/
+.banner{}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+
+/*pefect start*/
+.perfect{
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	/*border: 1px solid green;*/
+}
+.p_content{
+	
+}
+.c_text{
+	line-height: 26px;
+}
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.c_title{
+	margin: 20px 0 25px;
+	font-size: 30px;
+	font-weight: 400;
+
+}
+.mb_45{
+	margin-bottom: 40px;
+}
+/*perfect end*/
+/*blog start*/
+
+.blog{
+	padding: 20px 0 60px;
+}
+.container2{}
+.b_content{
+	overflow: hidden;
+}
+.b_single{
+	margin-top: 80px;
+	width: 47%;
+	float: left;
+	/*border: 1px solid red;*/
+
+}
+.b_single:nth-child(even){
+	margin-left: 6%;
+}
+.s_img{
+	margin-bottom: 25px;
+}
+.s_img img{
+	width: 100%;
+}
+
+
+/*blog end*/
+/*newsletter start*/
+.news{
+	background-color: #f0f0f0;
+}
+.signup{
+	padding: 70px 0;
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{
+	position: relative;
+	width: 400px;
+	/*border: 5px solid red;*/
+	margin: 0 auto;
+}
+.s_form input{
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/*newsletter end*/
+
+/*blog2 start*/
+.blog2{
+	padding: 20px 0 60px;
+}
+.b2_content{
+	overflow: hidden;
+}
+.b2_single{
+	margin-top: 80px;
+	width: 47%;
+	float: left;
+	/*border: 1px solid green;*/
+}
+.b2_single:last-child{
+	margin-left: 6%;
+}
+.s_img img{
+	width: 100%;
+}
+
+/*blog2 end*/
+/*load start*/
+.load{}
+.container3{
+	padding-bottom: 70px;
+	text-align: center;
+}
+.container3 button{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	background: none;
+	border: none;
+	border: 1px solid #626262;
+	cursor: pointer;
+	width: 160px;
+	height: 50px;
+	transition: .3s;
+
+}
+.container3 button:focus{
+	outline: 0;
+}
+.container3 button:hover{
+	background-color: #626262;
+	color: white;
+}
+/*load end*/
+
+footer{
+	margin-top: 60px;
+    background-color: #f0f0f0;
+}
+.f_left{
+	width: 25%;
+    float: left;
+    padding: 40px 0;
+}
+.f_left ul{}
+.f_left ul li{
+	list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.f_right{
+	width: 15%;
+    float: right;
+}
+.r_text{
+	width: 30%;
+    float: left;
+}
+.r_text p{
+	margin: 40px 0;
+    color: black;
+}
+.icon{
+	margin: 40px 0;
+    width: 70%;
+    float: right;
+    display: inline-block;
+}
+.r_icon{
+	float: right;
+}
+.r_icon ul{
+	margin: 0;
+    padding: 0;
+    float: right;
+}
+.r_icon ul li{
+	float: left;
+    list-style: none;
+}
+.r_icon ul li a{
+	color: #626262;
+	text-decoration: none;
+}
+.r_icon ul li a i{
+	padding: 0 10px;
+    width: 33%;
+    color: #626262;
+}
